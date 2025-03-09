@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:gravity="end"
+android:padding="10dp"
+tools:layout_editor_absoluteX="1dp"
+tools:layout_editor_absoluteY="1dp"
+tools:ignore="MissingConstraints">
+
+<TextView
+    android:padding="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:layout_marginLeft="10dp"
+    android:fontFamily="sans-serif-medium"
+    android:text="The solution is to remove the android/.gradle folder and try to build again"
+    android:background="#C2E3F3"
+    android:layout_marginBottom="5dp"
+    android:maxWidth="300dp"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="12sp"
+    android:text="16:31, 24/02/2025"
+    android:textColor="#888888"
+    android:layout_marginTop="5dp"
+    android:gravity="end"/>
+
+</LinearLayout>
+

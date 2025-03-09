@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical|start"
+    android:padding="10dp"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    tools:ignore="MissingConstraints">
+
+    <ImageView
+        android:id="@+id/securityimage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"
+        android:src="@drawable/img"
+        android:layout_marginEnd="10dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:padding="8dp"
+            android:layout_marginRight="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-medium"
+            android:text="CThe solution is to remove the android/.gradle folder and try to build again"
+            android:background="@drawable/rounded_background"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="16:30, 24/02/2025"
+            android:textColor="#888888"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
